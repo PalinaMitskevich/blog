@@ -16,6 +16,7 @@ const Home = ({isAuth}) => {
     }
 
     getPosts()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   const deletePost = async (id) => {

@@ -16,6 +16,7 @@ const CreatePost = ({ isAuth }) => {
     if(!isAuth) {
       navigate(paths.HOME)
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   const createPost = async () => {
