@@ -1,0 +1,8 @@
+.log-out-button {
+    height: 25px;
+    border: none;
+    border-radius: 2px;
+    margin-left: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}

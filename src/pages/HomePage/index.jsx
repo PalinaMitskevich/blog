@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 import {collection, getDocs, deleteDoc, doc} from "firebase/firestore"
 import {dataBase, auth} from "../../firebase-config";
 import {collections} from "../../constants";
-import "./Home.css";
+import "./home.css";
 
 const Home = ({isAuth}) => {
   const postCollectionRef = collection(dataBase, collections.posts)

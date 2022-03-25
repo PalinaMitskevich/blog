@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { addDoc, collection } from "firebase/firestore";
 import { dataBase, auth } from "../../firebase-config";
 import { collections, paths } from "../../constants";
-import "./CreatePost.css";
+import "./createPost.css";
 
 const CreatePost = ({ isAuth }) => {
   const navigate = useNavigate()
